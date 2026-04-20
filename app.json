@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Subdomain Enumerator",
+    "slug": "subdomain-enumerator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.subdomain.enumerator"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.subdomain.enumerator",
+      "permissions": ["android.permission.INTERNET"]
+    },
+    "plugins": [
+      ["expo-sqlite"]
+    ]
+  }
+}
