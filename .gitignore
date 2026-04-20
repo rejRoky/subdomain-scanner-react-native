@@ -2,15 +2,38 @@ node_modules/
 .expo/
 dist/
 web-build/
+
+# Android
+android/
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
-*.orig.*
+
+# iOS
+ios/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
+
+# Env
 .env
 .env.local
+.env*.local
+
+# OS
 .DS_Store
+Thumbs.db
