@@ -1,4 +1,4 @@
-# Subdomain Enumerator
+# Subdomain Enumerator — Passive Recon Tool
 
 A passive subdomain enumeration tool built with React Native (Expo). Queries multiple public sources, optionally resolves each subdomain to an IP via DNS-over-HTTPS, and stores all jobs locally on-device.
 
