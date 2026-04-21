@@ -100,4 +100,4 @@ This tool performs **passive reconnaissance only** — it never sends probes or 
 
 ## License
 
-MIT © 2026 [Rejaul Islam Roky](https://github.com/rejRoky)
+MIT © 2026 [Rejaul Islam Roky](https://github.com/rejRoky) — see [LICENSE](LICENSE) for details.
