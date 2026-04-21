@@ -2,6 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Ionicons } from '@expo/vector-icons';
 import { COLORS } from '../theme';
 import HomeScreen from '../screens/HomeScreen';
@@ -61,16 +62,18 @@ function TabNavigator() {
 
 export default function AppNavigator() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-          cardStyle: { backgroundColor: COLORS.BACKGROUND },
-        }}
-      >
-        <Stack.Screen name="Tabs" component={TabNavigator} />
-        <Stack.Screen name="Results" component={ResultsScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer>
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false,
+            cardStyle: { backgroundColor: COLORS.BACKGROUND },
+          }}
+        >
+          <Stack.Screen name="Tabs" component={TabNavigator} />
+          <Stack.Screen name="Results" component={ResultsScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </GestureHandlerRootView>
   );
 }
