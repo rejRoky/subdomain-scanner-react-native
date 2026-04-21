@@ -87,10 +87,17 @@ src/
 - **React Navigation** — bottom tabs + stack
 - **TypeScript**
 
+## Author
+
+### Rejaul Islam Roky
+
+- GitHub: [@rejRoky](https://github.com/rejRoky)
+- Email: [rejaul.islam.roky@gmail.com](mailto:rejaul.islam.roky@gmail.com)
+
 ## Legal
 
 This tool performs **passive reconnaissance only** — it never sends probes or requests directly to the target. Only use it against domains you own or have explicit permission to test.
 
 ## License
 
-MIT
+MIT © 2026 [Rejaul Islam Roky](https://github.com/rejRoky)
